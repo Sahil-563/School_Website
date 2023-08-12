@@ -15,6 +15,7 @@
 .overflow{
     overflow-y: hidden;
 }
+
 /*News*/
 .blue-div{
     display: flex;
@@ -111,7 +112,7 @@ nav{
     float: left;
     background:#03a9f4;
     padding: 8px;
-    margin: 8px 8px 0px 0px;
+    margin: 8px,0px 0px 0px;
     text-align: center;
 }
 .static-txt{
@@ -125,6 +126,27 @@ nav{
 .static-txt>p>a{
     text-decoration: none;
 }
+.faculty-heading{
+    color: white;
+    margin-top: 40px;
+    background-color: #03a9f4;
+    text-align: center;
+}
+.card{
+    margin-top: 15px;
+    
+}
+.card>img{
+    width: 180px;
+    height: 200px;
+}
+@media screen and (max-width:600px) {
+    .card>img{
+        margin: auto;
+        width: 60%;
+        height: 60%;
+    }
+}
 .img-with-txt{
     width: 100%;
     height: 300px;
@@ -137,15 +159,17 @@ nav{
 
 .princi-img>img{
     width: 80%;
+    
 }
 .vice-princi-with-txt{
-    max-height: fit-content;
-    margin-bottom: 20px;
+    /* max-height: fit-content; */
+    margin-bottom: 10px;
     display: flex;
     gap: 20px;
 }
 .vice-princi-img>img{
     width: 80%;
+    
 }
 .bus-img>img{
     width: 100%;
@@ -169,7 +193,7 @@ nav{
     grid-auto-rows: 230px;
 }
 .box{
-    max-height: 360px;
+    max-height: 400px;
     max-width: 380px;
     
 }
@@ -181,4 +205,47 @@ nav{
     .gallery{
         grid-template-columns: repeat(1,1fr);
     }
+}
+
+.footer-container{
+    /* position: relative; */
+    height: 230px;
+}
+.footer-list{
+    height: 100%;
+    background-color: #232F3E;
+    /* position: absolute; */
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-list ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-list ul li{
+    line-height: 30px;
+    color: white;
+    list-style: none;
+}
+.footer-list ul li i{
+    color: red;
+}
+.footer-list ul li h4{
+    color: red;
+}
+@media screen and (max-width:600px){
+    .footer-list{
+        flex-wrap: wrap;
+    }    
+}
+@media screen and (max-width:600px){
+    .footer-container{
+        height: 100%;
+    }    
 }
