@@ -287,3 +287,52 @@ nav .fa{
     }
 }
 
+
+
+/* About us*/
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color:rgb(72, 160, 237);;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  #school-achievements ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .photo {
+    margin: 20px 0;
+  }
+  
+  .photo img {
+    max-width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(72, 160, 237);
+    color: white;
+  }
+  
