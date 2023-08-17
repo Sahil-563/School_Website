@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -23,23 +24,24 @@
     </div>
     <section class="header">
         <nav>
-            <a href=""><img
-                    src="./photos/r-v-convent-school-and-r-v-english-high-school-lakshmipura-bangalore-kindergartens-c9c5hgmxm5.avif"
-                    width="80px" height="80px" alt=""></a>
-            <div class="nav-links">
+            <a href=""><img src="./photos/r-v-convent-school-and-r-v-english-high-school-lakshmipura-bangalore-kindergartens-c9c5hgmxm5.avif"width="80px" height="80px" alt=""></a>
+            <span class="menu"><i class="fa fa-bars" id="lines"></i></span>
+            <div class="nav-links show" id="navLinks">
+                <i class="fa fa-times" id="close" aria-hidden="true"></i>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#Our-Faculty">Our Staff</a></li>
+                    <li><a href="#footer">Quick links</a></li>
 
                 </ul>
             </div>
+
         </nav>
     </section>
 
-    <section class="banner">
+    <section id="banner">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-lg-12">
@@ -64,7 +66,7 @@
                             </div>
                             <div class="rolling-txt">
                                 <p><a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-                                        nostrum?</a><img src="./photos/latest-news-blink-img.gif" alt=""></p>
+                                        nostrum?</a><span><img src="./photos/latest-news-blink-img.gif"></span> </p>
                                 <p><a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
                                         nostrum?</a><img src="./photos/latest-news-blink-img.gif" alt=""></p>
                                 <p><a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
@@ -357,54 +359,56 @@
             </div>
     </section>
 
-
-    <div class="footer-container">
-        <div class="footer-list text-align">
-
-            <ul>
-                <li>
-                    <h4><b>Quick Links</b></h4>
-                </li>
-                <li><a href="">Home</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Contact Us</a></li>
-
-            </ul>
-            <ul>
-                <li>
-                    <h4><b>Student Section</b></h4>
-                </li>
-                <li><a href="">Result</a></li>
-                <li><a href="">Pay Fee</a></li>
-                <li><a href="">Smart class</a></li>
-                <li><a href="">Extra Ciricular</a></li>
-
-            </ul>
-            <ul>
-                <li>
-                    <h4><b>Other Links</b></h4>
-                </li>
-                <li><a href="">News</a></li>
-                <li><a href="">Admission</a></li>
-                <li><a href="">Anti-Raging</a></li>
-                <li><a href="">Faculty</a></li>
-            </ul>
-            <ul>
-                <li>
-                    <h4><b>Get in Touch</b></h4>
-                </li>
-                <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href=""> E-mail:-
-                        <br>sahil2002ece@gmail.com</a></li>
-                <li><i class="fa fa-headphones" aria-hidden="true"></i><a href="">Whatsapp:- <br>9805420563</a></li>
-                <li><i class="fa fa-fax" aria-hidden="true"></i><a href="">Contact NO.:- <br>9805420563</a></li>
-            </ul>
-            
-        </div>
-        <p class="text-align">Copyright @ 2023, RVCP.com.All Right Reserved</p>
-    </div>
-
+    <section id="footer">
+        <div class="footer-container">
+            <div class="footer-list text-align">
     
+                <ul>
+                    <li>
+                        <h4><b>Quick Links</b></h4>
+                    </li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+    
+                </ul>
+                <ul>
+                    <li>
+                        <h4><b>Student Section</b></h4>
+                    </li>
+                    <li><a href="">Result</a></li>
+                    <li><a href="">Pay Fee</a></li>
+                    <li><a href="">Smart class</a></li>
+                    <li><a href="">Extra Ciricular</a></li>
+    
+                </ul>
+                <ul>
+                    <li>
+                        <h4><b>Other Links</b></h4>
+                    </li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Admission</a></li>
+                    <li><a href="">Anti-Raging</a></li>
+                    <li><a href="">Faculty</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4><b>Get in Touch</b></h4>
+                    </li>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="https://mail.google.com/"> E-mail:-
+                            <br>sahil2002ece@gmail.com</a></li>
+                    <li><i class="fa fa-headphones" aria-hidden="true"></i><a href="">Whatsapp:- <br>9805420563</a></li>
+                    <li><i class="fa fa-fax" aria-hidden="true"></i><a href="">Contact NO.:- <br>9805420563</a></li>
+                </ul>
+    
+            </div>
+            <p class="text-align">Copyright @ 2023, RVCP.com.All Right Reserved</p>
+        </div>
+    
+    </section>
+    
+
 
 
 
@@ -424,6 +428,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
