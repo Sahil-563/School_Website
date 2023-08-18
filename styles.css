@@ -126,12 +126,7 @@ nav{
 .static-txt>p>a{
     text-decoration: none;
 }
-.faculty-heading{
-    color: white;
-    margin-top: 40px;
-    background-color: #03a9f4;
-    text-align: center;
-}
+/* 
 .card{
     margin-top: 15px;
     
@@ -146,7 +141,111 @@ nav{
 .img-with-txt{
     width: 100%;
     height: 300px;
+} */
+#Our-Faculty{
+    margin-top: 20px;
 }
+.bdy{
+    background-color: rgb(159, 213, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    padding: 0 35px;
+}
+.faculty-heading{
+    color: white;
+    margin-top: 40px;
+    background-color: #03a9f4;
+    text-align: center;
+}
+
+.card .img>img{
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.wrapper{
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+}
+.wrapper i{
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+}
+.wrapper i:first-child{
+    left: -22px;
+}
+.wrapper i:last-child{
+    right: -22px;
+}
+.carousel .card{
+    cursor: pointer;
+    width: 245px;
+    height: 240px;
+    list-style: none;
+    background: #f7f8f8;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.carousel:where(.card,.img){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.wrapper .carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100/3)-12px);
+    gap: 16px;
+    overflow: hidden;
+    /* scroll-snap-type: x mandatory; */
+    scroll-behavior: smooth;
+   
+}
+.carousel.dragging .card{
+    cursor: grab;
+    user-select: none;
+}
+
+
+@media screen and(max-width:900px){
+    .wrapper .carousel{
+        grid-auto-columns: calc((100/2)-9px);
+    }
+}
+@media screen and(max-width:600px){
+    .wrapper .carousel{
+        grid-auto-columns: 100%;
+
+    }
+    .card{
+        width: 290px;
+        height: 240px;
+    }
+}
+
 .princi-img-with-txt{
     margin-top: 20px;
     display: flex;
