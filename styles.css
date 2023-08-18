@@ -178,7 +178,7 @@ nav{
     background: #5998d7;
     text-align: center;
     line-height: 50px;
-    border-radius: 10%;
+    border-radius: 50%;
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -245,12 +245,12 @@ nav{
         height: 240px;
     }
     .wrapper i:first-child{
-        position: absolute;
-        left: -35px;
-    }
-    .wrapper i:last-child{
-        right: 50px;
-    }
+    position: absolute;
+    left: -50px;
+}
+.wrapper i:last-child{
+    right: -50px;
+}
 }
 
 .princi-img-with-txt{
