@@ -231,12 +231,12 @@ nav{
 }
 
 
-@media screen and(max-width:900px){
+@media screen and (max-width:900px){
     .wrapper .carousel{
         grid-auto-columns: calc((100/2)-9px);
     }
 }
-@media screen and(max-width:600px){
+@media screen and (max-width:600px){
     .wrapper .carousel{
         grid-auto-columns: 100%;
 
@@ -245,13 +245,9 @@ nav{
         width: 290px;
         height: 240px;
     }
-    .wrapper i:first-child{
-    position: absolute;
-    left: -50px;
-}
-.wrapper i:last-child{
-    right: -50px;
-}
+    .wrapper i{
+        display: none;
+    }
 }
 
 .princi-img-with-txt{
