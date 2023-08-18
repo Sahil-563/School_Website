@@ -175,22 +175,22 @@ nav{
 .wrapper i{
     height: 50px;
     width: 50px;
-    background: #fff;
+    background: #5998d7;
     text-align: center;
     line-height: 50px;
-    border-radius: 50%;
+    border-radius: 10%;
     cursor: pointer;
     position: absolute;
     top: 50%;
-    
     transform: translateY(-50%);
     box-shadow: 0 3px 6px rgba(0,0,0,0.23);
 }
 .wrapper i:first-child{
-    left: -22px;
+    position: absolute;
+    left: -50px;
 }
 .wrapper i:last-child{
-    right: -22px;
+    right: -50px;
 }
 .carousel .card{
     cursor: pointer;
@@ -243,6 +243,13 @@ nav{
     .card{
         width: 290px;
         height: 240px;
+    }
+    .wrapper i:first-child{
+        position: absolute;
+        left: -35px;
+    }
+    .wrapper i:last-child{
+        right: 50px;
     }
 }
 
