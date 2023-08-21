@@ -245,8 +245,11 @@ nav{
         width: 290px;
         height: 240px;
     }
-    .wrapper i{
+    .wrapper .fa-angle-left{
         display: none;
+    }
+    .wrapper i:last-child{
+        right: -20px;
     }
 }
 
