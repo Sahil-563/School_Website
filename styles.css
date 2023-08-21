@@ -190,6 +190,7 @@ nav{
     left: -50px;
 }
 .wrapper i:last-child{
+    position: absolute;
     right: -50px;
 }
 .carousel .card{
@@ -249,8 +250,12 @@ nav{
         display: none;
     }
     .wrapper i:last-child{
+     
         right: -20px;
     }
+    /* .wrapper i:last-child{
+        
+    } */
 }
 
 .princi-img-with-txt{
