@@ -384,7 +384,6 @@ nav .fa{
     nav .fa{
         display: inline;
         color: #080707;
-        margin: 10px;
         font-size: 30px;
         cursor: pointer;
     }
@@ -396,6 +395,10 @@ nav .fa{
         justify-content: space-between;
         
     }
+    .fa-times{
+        margin: 10px;
+    }
+    
 }
 
 
