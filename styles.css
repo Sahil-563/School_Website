@@ -41,6 +41,7 @@
 }
 
 /*Header section*/
+
 nav{
     display: flex;
     padding: 0%;
@@ -76,6 +77,9 @@ nav{
 }
 
 /*Banner Section*/
+#banner{
+    margin-top: 30px;
+}
 .banner-img>img{
     width: 100%;
 }
